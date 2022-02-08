@@ -6,14 +6,14 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/eminetto/clean-architecture-go-v2/entity"
+	"github.com/rishigohil/clean-architecture-go-v2/entity"
 
 	"github.com/codegangsta/negroni"
-	bmock "github.com/eminetto/clean-architecture-go-v2/usecase/book/mock"
-	lmock "github.com/eminetto/clean-architecture-go-v2/usecase/loan/mock"
-	umock "github.com/eminetto/clean-architecture-go-v2/usecase/user/mock"
 	"github.com/golang/mock/gomock"
 	"github.com/gorilla/mux"
+	bmock "github.com/rishigohil/clean-architecture-go-v2/usecase/book/mock"
+	lmock "github.com/rishigohil/clean-architecture-go-v2/usecase/loan/mock"
+	umock "github.com/rishigohil/clean-architecture-go-v2/usecase/user/mock"
 	"github.com/stretchr/testify/assert"
 )
 

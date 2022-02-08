@@ -7,13 +7,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/eminetto/clean-architecture-go-v2/infrastructure/repository"
-	"github.com/eminetto/clean-architecture-go-v2/usecase/book"
-
-	"github.com/eminetto/clean-architecture-go-v2/config"
-	_ "github.com/go-sql-driver/mysql"
-
-	"github.com/eminetto/clean-architecture-go-v2/pkg/metric"
+	"github.com/rishigohil/clean-architecture-go-v2/config"
+	"github.com/rishigohil/clean-architecture-go-v2/infrastructure/repository"
+	"github.com/rishigohil/clean-architecture-go-v2/pkg/metric"
+	"github.com/rishigohil/clean-architecture-go-v2/usecase/book"
 )
 
 func handleParams() (string, error) {

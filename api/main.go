@@ -9,22 +9,22 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/eminetto/clean-architecture-go-v2/infrastructure/repository"
-	"github.com/eminetto/clean-architecture-go-v2/usecase/book"
-	"github.com/eminetto/clean-architecture-go-v2/usecase/user"
+	"github.com/rishigohil/clean-architecture-go-v2/infrastructure/repository"
+	"github.com/rishigohil/clean-architecture-go-v2/usecase/book"
+	"github.com/rishigohil/clean-architecture-go-v2/usecase/user"
 
-	"github.com/eminetto/clean-architecture-go-v2/usecase/loan"
+	"github.com/rishigohil/clean-architecture-go-v2/usecase/loan"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
 	"github.com/codegangsta/negroni"
-	"github.com/eminetto/clean-architecture-go-v2/api/handler"
-	"github.com/eminetto/clean-architecture-go-v2/api/middleware"
-	"github.com/eminetto/clean-architecture-go-v2/config"
-	"github.com/eminetto/clean-architecture-go-v2/pkg/metric"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/context"
 	"github.com/gorilla/mux"
+	"github.com/rishigohil/clean-architecture-go-v2/api/handler"
+	"github.com/rishigohil/clean-architecture-go-v2/api/middleware"
+	"github.com/rishigohil/clean-architecture-go-v2/config"
+	"github.com/rishigohil/clean-architecture-go-v2/pkg/metric"
 )
 
 func main() {

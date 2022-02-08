@@ -9,11 +9,11 @@ import (
 	"testing"
 
 	"github.com/codegangsta/negroni"
-	"github.com/eminetto/clean-architecture-go-v2/api/presenter"
-	"github.com/eminetto/clean-architecture-go-v2/entity"
-	"github.com/eminetto/clean-architecture-go-v2/usecase/user/mock"
 	"github.com/golang/mock/gomock"
 	"github.com/gorilla/mux"
+	"github.com/rishigohil/clean-architecture-go-v2/api/presenter"
+	"github.com/rishigohil/clean-architecture-go-v2/entity"
+	"github.com/rishigohil/clean-architecture-go-v2/usecase/user/mock"
 	"github.com/stretchr/testify/assert"
 )
 

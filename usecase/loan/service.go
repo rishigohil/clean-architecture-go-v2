@@ -1,9 +1,9 @@
 package loan
 
 import (
-	"github.com/eminetto/clean-architecture-go-v2/entity"
-	"github.com/eminetto/clean-architecture-go-v2/usecase/book"
-	"github.com/eminetto/clean-architecture-go-v2/usecase/user"
+	"github.com/rishigohil/clean-architecture-go-v2/entity"
+	"github.com/rishigohil/clean-architecture-go-v2/usecase/book"
+	"github.com/rishigohil/clean-architecture-go-v2/usecase/user"
 )
 
 //Service loan usecase

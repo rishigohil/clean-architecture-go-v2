@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/eminetto/clean-architecture-go-v2/entity"
+	"github.com/rishigohil/clean-architecture-go-v2/entity"
 )
 
 //UserMySQL mysql repo

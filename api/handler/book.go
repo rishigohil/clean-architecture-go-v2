@@ -5,13 +5,13 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/eminetto/clean-architecture-go-v2/usecase/book"
+	"github.com/rishigohil/clean-architecture-go-v2/usecase/book"
 
-	"github.com/eminetto/clean-architecture-go-v2/api/presenter"
+	"github.com/rishigohil/clean-architecture-go-v2/api/presenter"
 
 	"github.com/codegangsta/negroni"
-	"github.com/eminetto/clean-architecture-go-v2/entity"
 	"github.com/gorilla/mux"
+	"github.com/rishigohil/clean-architecture-go-v2/entity"
 )
 
 func listBooks(service book.UseCase) http.Handler {

@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/eminetto/clean-architecture-go-v2/usecase/book"
-	"github.com/eminetto/clean-architecture-go-v2/usecase/user"
+	"github.com/rishigohil/clean-architecture-go-v2/usecase/book"
+	"github.com/rishigohil/clean-architecture-go-v2/usecase/user"
 
-	"github.com/eminetto/clean-architecture-go-v2/usecase/loan"
+	"github.com/rishigohil/clean-architecture-go-v2/usecase/loan"
 
 	"github.com/codegangsta/negroni"
-	"github.com/eminetto/clean-architecture-go-v2/entity"
 	"github.com/gorilla/mux"
+	"github.com/rishigohil/clean-architecture-go-v2/entity"
 )
 
 func borrowBook(bookService book.UseCase, userService user.UseCase, loanService loan.UseCase) http.Handler {

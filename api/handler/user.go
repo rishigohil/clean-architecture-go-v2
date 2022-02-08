@@ -5,11 +5,11 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/eminetto/clean-architecture-go-v2/usecase/user"
+	"github.com/rishigohil/clean-architecture-go-v2/usecase/user"
 
-	"github.com/eminetto/clean-architecture-go-v2/api/presenter"
+	"github.com/rishigohil/clean-architecture-go-v2/api/presenter"
 
-	"github.com/eminetto/clean-architecture-go-v2/entity"
+	"github.com/rishigohil/clean-architecture-go-v2/entity"
 
 	"github.com/codegangsta/negroni"
 	"github.com/gorilla/mux"

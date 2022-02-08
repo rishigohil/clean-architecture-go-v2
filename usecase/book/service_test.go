@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eminetto/clean-architecture-go-v2/entity"
+	"github.com/rishigohil/clean-architecture-go-v2/entity"
 
 	"github.com/stretchr/testify/assert"
 )

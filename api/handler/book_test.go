@@ -8,12 +8,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/eminetto/clean-architecture-go-v2/entity"
+	"github.com/rishigohil/clean-architecture-go-v2/entity"
 
 	"github.com/codegangsta/negroni"
-	"github.com/eminetto/clean-architecture-go-v2/usecase/book/mock"
 	"github.com/golang/mock/gomock"
 	"github.com/gorilla/mux"
+	"github.com/rishigohil/clean-architecture-go-v2/usecase/book/mock"
 	"github.com/stretchr/testify/assert"
 )
 

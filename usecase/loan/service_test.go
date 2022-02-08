@@ -3,11 +3,11 @@ package loan
 import (
 	"testing"
 
-	"github.com/eminetto/clean-architecture-go-v2/entity"
+	"github.com/rishigohil/clean-architecture-go-v2/entity"
 
-	bmock "github.com/eminetto/clean-architecture-go-v2/usecase/book/mock"
-	umock "github.com/eminetto/clean-architecture-go-v2/usecase/user/mock"
 	"github.com/golang/mock/gomock"
+	bmock "github.com/rishigohil/clean-architecture-go-v2/usecase/book/mock"
+	umock "github.com/rishigohil/clean-architecture-go-v2/usecase/user/mock"
 	"github.com/stretchr/testify/assert"
 )
 
